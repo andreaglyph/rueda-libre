@@ -1,0 +1,15 @@
+4. Se registra lo siguiente: 
+http://127.0.0.1:5500/index.html
+host: 127.0.0.1
+puerto: 5500
+ruta: index.html
+método: GET 
+código de estado: 304 Not Modified
+
+5. 404 Not Found cuando se ingresa a una página que no existe
+
+6. 
+HTML: Crea la maquetación de la página y los textos que estos conlleva.
+CSS: Le da estilos y vida a la maquetación creada
+JS: Le brinda funcionalidad a la página
+
