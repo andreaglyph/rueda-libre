@@ -1,0 +1,81 @@
+:root {
+  --verde-ruta: #1E7A4F;
+  --naranja-pedal: #F39A2B;
+  --azul-noche: #14213D;
+  --crema: #FAF6EF;
+  --gris-asfalto: #5B6470;
+  --blanco: #FFFFFF;
+  --font-heading: "Montserrat", sans-serif;
+  --font-body: 'Open Sans', sans-serif;
+
+  --weight-light: 300;
+  --weight-regular: 400;
+  --weight-medium: 500;
+  --weight-semibold: 600;
+  --weight-bold: 700;
+
+  --spacing-sm: 0.5rem;
+  --spacing-md: 1rem;
+  --spacing-lg: 2rem;
+}
+
+body {
+  background-color: var(--crema);
+  color: var(--azul-noche);
+  font-family: var(--font-body);
+  padding: var(--spacing-md);
+}
+
+h1 {
+  font-family: var(--font-heading);
+  font-weight: var(--weight-bold);
+  color: var(--verde-ruta); 
+  margin-bottom: var(--spacing-lg);
+}
+
+h2, h3, h4 {
+  color: var(--azul-noche);
+  font-family: var(--font-body);
+  font-weight: var(--weight-semibold);
+}
+
+
+a {
+  color: var(--verde-ruta);
+  text-decoration: underline;
+}
+
+#menu a {
+  color: var(--gris-asfalto);
+  text-decoration: none;
+  &:hover {
+    color: var(--azul-noche);
+  }
+    &[aria-current="page"] {
+    color: var(--verde-ruta);
+    font-weight: var(--weight-semibold);
+        }
+}
+
+.boton-principal {
+  display: inline-block;
+  padding: 12px 24px;
+  background-color: var(--verde-ruta);
+  color: var(--blanco);
+  font-size: 16px;
+  border-radius: 8px;
+}
+
+.boton-secundario {
+  background-color: var(--naranja-pedal);
+  color: var(--azul-noche);
+}
+
+.btn {
+  background-color: var(--naranja-pedal);
+  padding: var(--spacing-sm) var(--spacing-md);
+}
+
+ul {
+  list-style-type: none;
+}
